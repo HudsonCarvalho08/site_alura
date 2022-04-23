@@ -1,0 +1,265 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: 'Montserrat';
+    --botao-azul-efeito: #3C92FA;  
+
+}
+
+body {
+    background-color: #00030c;
+    color:var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.principal {
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width:80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.descricao__texto2 {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding:2em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal)
+}
+
+.lista__link a{
+    
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+    
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+
+
+.rodape__texto {
+    width: 1200px;
+    height: 45px;
+    top: 3251.99px;
+    left: 120px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: var(--cinza-secundario);
+    left: 120px;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
+@media (max-width: 740px) {
+   
+    
+    .principal {
+        background-image: url("Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items:center;
+        text-align: center;
+        width: 100vw;
+    }
+
+
+    .container__titulo {
+        font-size: 15px;
+        font-weight: 2000;
+        width: 60vw;
+        text-align: left;
+      
+    
+    }
+
+    .container__imagem {
+     width: 35vw;
+ }
+
+    .descricao__titulo {
+        font-weight: 10;
+        font-size: 25px;
+        color: var(--branco-principal);
+        margin-bottom: 0.1em;
+        padding: 01px 05px;
+        list-style-type: none;
+        width: 45vw;
+    }
+
+    .container__botao {
+        width: 45vw;
+    }
+
+    .container__aviso {
+        width: 45vw;
+    }
+
+    .secundario__imagem {
+        width: 25vw;
+    }
+
+    .descricao__titulo {
+        width: 45vw;
+        margin: 45px;
+    }
+
+    .descricao__texto {
+        width: 55vw;
+        margin: 45px;
+    }
+
+    .secundario__imagem2 {
+        width: 1000%;
+        text-align: right;
+        margin: 300px;
+        
+    }
+
+    .container__descricao2 {
+        width: 45vw;
+        text-align: left;
+    }
+
+ 
+
+    .dispositivos__titulo {
+        text-align: center;
+
+    }
+
+    .dispositivos {
+        width: 175%;
+    }
+
+    .rodape__lista {
+        width: 25%
+        text-align: center;
+    }
+
+    .lista__link {
+        width: 55%;
+        margin-top: 14px;
+        text-align:right;
+    }
+
+    .televisao {
+        width: 65vw;
+        height: 100px;
+        text-align: right;
+    }
+
+    
+}
