@@ -209,6 +209,8 @@ body {
 
     .secundario__imagem {
         width: 25vw;
+        margin: -90px;
+
     }
 
     .descricao__titulo {
@@ -218,19 +220,20 @@ body {
 
     .descricao__texto {
         width: 55vw;
-        margin: 45px;
+        margin: 5px;
     }
 
     .secundario__imagem2 {
         width: 1000%;
         text-align: right;
-        margin: 300px;
+        margin: 150px;
         
     }
 
     .container__descricao2 {
-        width: 45vw;
+        width: 50vw;
         text-align: left;
+        margin: -100px;
     }
 
  
@@ -252,7 +255,7 @@ body {
     .lista__link {
         width: 55%;
         margin-top: 14px;
-        text-align:right;
+        text-align: right;
     }
 
     .televisao {
